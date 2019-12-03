@@ -33,7 +33,7 @@ export default function Routes() {
 
       <Route path="/recuperar" component={Recuperar} />
 
-      <PrivateRoute path="/principal" componenet={Principal} />
+      <Route path="/principal" componenet={Principal} />
       </Switch>
     </BrowserRouter>
   );

@@ -16,10 +16,10 @@ export default function Cadastrar({ history }) {
         email,
         senha
       }
-      await api.post("/user", user);
+      await api.post("/usuario", user);
       history.push("/")
     } catch (erro) {
-      console.log("Erro ao Cadastrar", erro)
+      console.log("Erro ao Cadastrar", erro);
     }
   }
   return (
